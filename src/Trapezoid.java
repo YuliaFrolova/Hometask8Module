@@ -1,6 +1,6 @@
-public class Trapezoid extends Shape{
-    @Override
+public class Trapezoid implements PrintName{
     public void printShapeName() {
         System.out.println("Trapezoid");
     }
+
 }

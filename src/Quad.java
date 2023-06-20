@@ -1,5 +1,6 @@
-public class Quad extends Shape{
-    public void printShapeName(){
+public class Quad implements PrintName{
+    public void printShapeName() {
         System.out.println("Quad");
     }
+
 }

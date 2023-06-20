@@ -1,6 +1,5 @@
-public class Circle extends Shape{
-    @Override
-    public void printShapeName(){
+public class Circle implements PrintName{
+    public void printShapeName() {
         System.out.println("Circle");
     }
 }

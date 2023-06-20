@@ -1,3 +1,8 @@
-public abstract class Shape {
-    public void printShapeName(){}
+interface PrintName{
+    void printShapeName();
+}
+public class Shape {
+    public void addShapeName(PrintName printName) {
+        printName.printShapeName();
+    }
 }
