@@ -1,10 +1,24 @@
 public class Main {
     public static void main(String[] args) {
-        new Shape().addShapeName(new Circle());
-        new Shape().addShapeName(new Triangle());
-        new Shape().addShapeName(new Quad());
-        new Shape().addShapeName(new Trapezoid());
-        new Shape().addShapeName(new Rectangle());
+    Shape circle =  new Circle();
+    Shape triangle = new Triangle();
+    Shape quad =  new Quad();
+    Shape trapezoid = new Trapezoid();
+    Shape rectangle = new Rectangle();
+    ShapePrinter shapePrinter = new ShapePrinter();
+    shapePrinter.printShapeName(circle);
+    shapePrinter.printShapeName(triangle);
+    shapePrinter.printShapeName(quad);
+    shapePrinter.printShapeName(trapezoid);
+    shapePrinter.printShapeName(rectangle);
+
+
+
+
+
+
+
+
     }
 
 }

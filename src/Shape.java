@@ -1,8 +1,8 @@
-interface PrintName{
-    void printShapeName();
-}
-public class Shape {
-    public void addShapeName(PrintName printName) {
-        printName.printShapeName();
+
+public abstract class Shape {
+    private String shapeName;
+    public void printShapeName(){
+        System.out.println(shapeName);
     }
+
 }
